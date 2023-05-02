@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+.search-box,
+.search-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 218px;
+  height: 50px;
+  background-color: #424444;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.search-box > input,
+.search-collapse > input{
+  background-color: #424444;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 38;
+  color: #c0bfbd;
+}
+
+.search-collapse {
+  width: 56px;
+  height: 50px;
+}
+
+.search-collapse > input {
+  width: 10%;
+}

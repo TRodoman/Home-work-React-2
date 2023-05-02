@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+.logo {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 56px;
+}
+
+.logo > div {
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #efefef;
+}
+
+.logo > div > h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.logo > div > a {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.38;
+  color: #c0bfbd;
+}
+
+.chevron1{
+  position: absolute;
+  left: 95%;
+  top: 45%;
+}
+
+.chevron2 {
+  position: absolute;
+  left: 86%;
+  top: 45%;
+}
